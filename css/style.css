@@ -1,0 +1,41 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+/*SLIDER*/
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 640px;
+    height: 850px;
+
+  }
+
+  .galeria{
+   margin-top: 8em;
+   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  }
+
+  .item {
+    width: 30%;
+    height: 100px;
+    margin-bottom: 2%;
+    
+  }
+  
